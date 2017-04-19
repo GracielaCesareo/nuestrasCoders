@@ -1,0 +1,29 @@
+header {
+  padding: 10px;
+  background-color: #009999;
+  font-family: Ubuntu,sans-serif;
+  border-bottom: 5px solid  #ffcc00;
+}
+    header h1 {
+      color: #ffcc00;
+    }  
+section {
+  width: 100%;
+  margin-left: 55px;
+}
+    .img {
+      width: 30%;
+      float: left;
+      margin: 20px;
+    }
+        .datos {
+          font-family: monospace;
+          text-align: center;
+        }
+        .coder {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+        .coder:hover {
+          opacity: 1;
+        }
